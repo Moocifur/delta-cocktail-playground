@@ -19,7 +19,7 @@ const cocktails = [
     favorite: false
   },
   {
-    id: 2,
+    id: 4,
     name: "El Comico",
     glass: "Collins",
     iconType: "collins",
@@ -46,6 +46,23 @@ const cocktails = [
       { amount: "3/4oz", name: "Lemon", type: "Citrus" },
       { amount: "1/2oz", name: "Aperol", type: "Modifier" },
       { amount: "0.5oz", name: "Simple Syrup", type: "Sweetener" }
+    ],
+    categories: ["classic", "citrus-forward", "refreshing"],
+    favorite: false
+  },
+  {
+    id: 2,
+    name: "Kayla's Yuzi Pear Highball",
+    glass: "Highball",
+    iconType: "collins",
+    method: "Shake",
+    garnish: "",
+    ingredients: [
+      { amount: "2oz", name: "Vodka", type: "Spirit" },
+      { amount: "1.5oz", name: "Yuzu Juice", type: "Citrus" },
+      { amount: "0.5oz", name: "Pear Syrup", type: "Modifier" },
+      { amount: "0.5oz", name: "Simple Syrup", type: "Sweetener" },
+      { amount: "Top", name: "Club Soda", type: "Sweetener" }
     ],
     categories: ["classic", "citrus-forward", "refreshing"],
     favorite: false
